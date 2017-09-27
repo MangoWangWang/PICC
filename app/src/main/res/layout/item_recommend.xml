@@ -1,94 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
     <TextView
-        android:background="#DE8D86"
-        android:textColor="@color/colorWhite"
-        android:textSize="20dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="续保"/>
+        android:background="#DE8D86"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="续保"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"/>
+
     <TextView
-        android:textColor="#2C3541"
-        android:textSize="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="江门"
         android:gravity="center"
+        android:text="江门"
+        android:textColor="#2C3541"
+        android:textSize="30dp"
         />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         >
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_tv"
             android:text="商业险"
-            android:layout_marginRight="10dp"
+            android:textColor="@color/colorWhite"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="总渠道"
             android:layout_marginRight="10dp"
+            android:background="@drawable/bg_tv_gray"
+            android:text="总渠道"
+            android:textColor="@color/colorWhite"
             />
 
         <TextView
+
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:text="总条款" />
+            android:background="@drawable/bg_tv_gray"
+            android:text="总条款"
+            android:textColor="@color/colorWhite"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_tv_gray"
             android:text="总来源"
-            android:layout_marginRight="10dp"
+            android:textColor="@color/colorWhite"
             />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_tv_gray"
             android:text="条款"
-            android:layout_marginRight="10dp"
+            android:textColor="@color/colorWhite"
             />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="同期金额:"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="同期金额："
+            android:textSize="16dp"
             />
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.2"
+            android:gravity="left"
             android:text="2,246,165.00"
+            android:textSize="16dp"
             />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="同期数量:"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="同期数量："
+            android:textSize="16dp"
             />
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.2"
+            android:gravity="left"
             android:text="12944"
+            android:textSize="16dp"
             />
     </LinearLayout>
 
@@ -97,15 +138,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="续保金额:"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="续保金额："
+            android:textSize="16dp"
             />
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.2"
+            android:gravity="left"
             android:text="1,790,161.00"
+            android:textSize="16dp"
             />
     </LinearLayout>
 
@@ -114,15 +166,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="续保数量:"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="续保数量："
+            android:textSize="16dp"
             />
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.2"
+            android:gravity="left"
             android:text="627"
+            android:textSize="16dp"
             />
     </LinearLayout>
 
@@ -131,18 +194,28 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="数量比例:"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="数量比例："
+            android:textSize="16dp"
             />
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.2"
+            android:gravity="left"
             android:text="4.84%"
+            android:textSize="16dp"
             />
     </LinearLayout>
-
 
 
 </LinearLayout>
