@@ -5,6 +5,7 @@
               android:orientation="vertical">
 
     <TextView
+        android:id="@+id/re_tv_type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#DE8D86"
@@ -12,16 +13,16 @@
         android:paddingRight="20dp"
         android:text="续保"
         android:textColor="@color/colorWhite"
-        android:textSize="20dp"/>
+        android:textSize="20dp" />
 
     <TextView
+        android:id="@+id/re_tv_location"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="江门"
         android:textColor="#2C3541"
-        android:textSize="30dp"
-        />
+        android:textSize="30dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,50 +31,50 @@
         >
 
         <TextView
+            android:id="@+id/re_tv_reType1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:background="@drawable/bg_tv"
             android:text="商业险"
-            android:textColor="@color/colorWhite"
-            />
+            android:textColor="@color/colorWhite" />
 
         <TextView
+            android:id="@+id/re_tv_reType2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:background="@drawable/bg_tv_gray"
             android:text="总渠道"
-            android:textColor="@color/colorWhite"
-            />
+            android:textColor="@color/colorWhite" />
 
         <TextView
 
-            android:id="@+id/textView2"
+            android:id="@+id/re_tv_reType3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:background="@drawable/bg_tv_gray"
             android:text="总条款"
-            android:textColor="@color/colorWhite"/>
+            android:textColor="@color/colorWhite" />
 
         <TextView
+            android:id="@+id/re_tv_reType4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:background="@drawable/bg_tv_gray"
             android:text="总来源"
-            android:textColor="@color/colorWhite"
-            />
+            android:textColor="@color/colorWhite" />
 
         <TextView
+            android:id="@+id/re_tv_reType5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:background="@drawable/bg_tv_gray"
             android:text="条款"
-            android:textColor="@color/colorWhite"
-            />
+            android:textColor="@color/colorWhite" />
 
     </LinearLayout>
 
@@ -95,21 +96,20 @@
             />
 
         <TextView
+            android:id="@+id/re_tv_sp_money"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_weight="1.2"
             android:gravity="left"
             android:text="2,246,165.00"
-            android:textSize="16dp"
-            />
+            android:textSize="16dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="0dp"
@@ -119,18 +119,17 @@
             android:gravity="right"
             android:paddingRight="10dp"
             android:text="同期数量："
-            android:textSize="16dp"
-            />
+            android:textSize="16dp" />
 
         <TextView
+            android:id="@+id/re_tv_sp_number"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_weight="1.2"
             android:gravity="left"
             android:text="12944"
-            android:textSize="16dp"
-            />
+            android:textSize="16dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -151,21 +150,20 @@
             />
 
         <TextView
+            android:id="@+id/re_tv_rw_money"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_weight="1.2"
             android:gravity="left"
             android:text="1,790,161.00"
-            android:textSize="16dp"
-            />
+            android:textSize="16dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="0dp"
@@ -175,18 +173,17 @@
             android:gravity="right"
             android:paddingRight="10dp"
             android:text="续保数量："
-            android:textSize="16dp"
-            />
+            android:textSize="16dp" />
 
         <TextView
+            android:id="@+id/re_tv_rw_number"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_weight="1.2"
             android:gravity="left"
             android:text="627"
-            android:textSize="16dp"
-            />
+            android:textSize="16dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -207,14 +204,14 @@
             />
 
         <TextView
+            android:id="@+id/re_tv_nb_percent"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_weight="1.2"
             android:gravity="left"
             android:text="4.84%"
-            android:textSize="16dp"
-            />
+            android:textSize="16dp" />
     </LinearLayout>
 
 
