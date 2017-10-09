@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import com.piccjm.picc.R;
 import com.piccjm.picc.adapter.AdapterMainViewPager;
+import com.piccjm.picc.view.LayoutProgress;
 import com.piccjm.picc.view.LayoutRecommend;
 
 import java.util.ArrayList;
@@ -19,12 +20,15 @@ public class MainActivity extends AppCompatActivity {
     private TabLayout tableLayout;
     private List<TabLayout.Tab> tabList = new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
     }
+
+
     private void initView()
     {
         // 实例化控件
@@ -34,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         // 创建viewPager适配器
         AdapterMainViewPager adapterMainViewPager = new AdapterMainViewPager(getSupportFragmentManager());
         adapterMainViewPager.addFragment(new LayoutRecommend());
-        adapterMainViewPager.addFragment(new LayoutRecommend());
+        adapterMainViewPager.addFragment(new LayoutProgress());
         adapterMainViewPager.addFragment(new LayoutRecommend());
         adapterMainViewPager.addFragment(new LayoutRecommend());
 

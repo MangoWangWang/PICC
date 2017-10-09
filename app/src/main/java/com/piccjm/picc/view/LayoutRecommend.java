@@ -56,6 +56,7 @@ public class LayoutRecommend extends Fragment {
     private void lodeDate() {
         for (int i = 0; i < 5; i++)
         {
+
             Recommend recommend = new Recommend();
             recommend.setLocation("五邑大学");
             recommend.setType("实习");
